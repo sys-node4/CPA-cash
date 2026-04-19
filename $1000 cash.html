@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instant $1000 Cash Deposit - Limited Offer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at top right, #f0fdf4, #ffffff);
+        }
+        .cta-pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(34, 197, 94, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+        }
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .step-card:hover {
+            transform: translateY(-5px);
+            border-color: #22c55e;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-slate-900">
+
+    <!-- Top Urgency Bar -->
+    <div class="bg-blue-600 text-white py-2 text-center text-sm font-semibold sticky top-0 z-50 px-4">
+        <span class="flex items-center justify-center gap-2">
+            <i class="fas fa-clock"></i>
+            HURRY: Spots are filling fast! <span id="timer" class="bg-white text-blue-600 px-2 rounded ml-1">04:59</span>
+        </span>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient pt-12 pb-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <!-- Trust Badge -->
+            <div class="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-6 border border-blue-100">
+                <i class="fas fa-shield-alt text-blue-500"></i> Verified US Resident Offer
+            </div>
+
+            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
+                Get <span class="text-green-600">$1,000 Cash</span> Deposited to You Instantly
+            </h1>
+            
+            <p class="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Limited Time Offer for US Residents – <span class="font-bold text-slate-800">Check If You Qualify</span> in seconds. No complex forms. Direct deposit enabled.
+            </p>
+
+            <!-- Visual Hook -->
+            <div class="relative max-w-md mx-auto mb-10">
+                <div class="bg-white rounded-2xl shadow-2xl p-4 border border-gray-100 floating">
+                    <div class="flex items-center justify-between mb-4 px-2">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-bold">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="text-left">
+                                <p class="text-xs text-gray-400 font-medium">PENDING DEPOSIT</p>
+                                <p class="font-bold text-gray-800">+$1,000.00</p>
+                            </div>
+                        </div>
+                        <span class="text-[10px] bg-green-50 text-green-700 px-2 py-1 rounded-md font-bold uppercase">Ready</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Primary CTA -->
+            <div class="max-w-sm mx-auto space-y-4">
+                <a href="https://www.af9m8trk.com/TFH115WW/4K1123XK/" class="cta-pulse block w-full bg-green-500 hover:bg-green-600 text-white text-xl font-extrabold py-5 rounded-2xl shadow-lg shadow-green-200 transition-all transform active:scale-95">
+                    Check Eligibility Now <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+                <div class="flex justify-center items-center gap-4 text-gray-400 text-sm">
+                    <span class="flex items-center gap-1"><i class="fas fa-lock"></i> Secure</span>
+                    <span class="flex items-center gap-1"><i class="fas fa-check-circle"></i> Verified</span>
+                    <span class="flex items-center gap-1"><i class="fas fa-user-shield"></i> Trusted</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Social Proof Section -->
+    <section class="py-12 bg-white border-y border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 overflow-hidden">
+             <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-50 grayscale hover:grayscale-0 transition-all">
+                <span class="font-black text-xl italic text-gray-400">MasterCard</span>
+                <span class="font-black text-xl italic text-gray-400">VISA</span>
+                <span class="font-black text-xl italic text-gray-400">PayPal</span>
+                <span class="font-black text-xl italic text-gray-400">Stripe</span>
+             </div>
+        </div>
+    </section>
+
+    <!-- Steps Section -->
+    <section class="py-20 px-6 bg-gray-50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-16">Get Started in <span class="text-blue-600">3 Simple Steps</span></h2>
+            
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <!-- Step 1 -->
+                <div class="step-card bg-white p-8 rounded-2xl shadow-sm border border-gray-100 transition-all fade-in">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">1. Enter Details</h3>
+                    <p class="text-gray-600">Provide basic info to start the verification process.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step-card bg-white p-8 rounded-2xl shadow-sm border border-gray-100 transition-all fade-in">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">2. Verify Eligibility</h3>
+                    <p class="text-gray-600">Our system checks your status in real-time (takes seconds).</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="step-card bg-white p-8 rounded-2xl shadow-sm border border-gray-100 transition-all fade-in">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">3. Receive Cash</h3>
+                    <p class="text-gray-600">Once approved, claim your $1,000 reward instantly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 px-6 bg-white overflow-hidden">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Real Results from Real People</h2>
+                <div class="flex justify-center gap-1 text-yellow-400">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Testimonial 1 -->
+                <div class="flex gap-4 items-start bg-gray-50 p-6 rounded-2xl fade-in">
+                    <div class="hidden sm:block w-12 h-12 bg-blue-500 rounded-full flex-shrink-0 flex items-center justify-center text-white font-bold">JM</div>
+                    <div>
+                        <p class="italic text-gray-700 mb-3 text-lg">"I received $1,000 within minutes. Super easy! Honestly thought it was too good to be true until I saw my bank balance."</p>
+                        <p class="font-bold text-gray-900">— Jason M. <span class="text-xs font-normal text-gray-400 ml-2">Verified Recipient</span></p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="flex gap-4 items-start bg-gray-50 p-6 rounded-2xl fade-in">
+                    <div class="hidden sm:block w-12 h-12 bg-pink-500 rounded-full flex-shrink-0 flex items-center justify-center text-white font-bold">AR</div>
+                    <div>
+                        <p class="italic text-gray-700 mb-3 text-lg">"Didn’t believe it at first, but it worked! The verification was quick and I got my funds the same day."</p>
+                        <p class="font-bold text-gray-900">— Ashley R. <span class="text-xs font-normal text-gray-400 ml-2">Verified Recipient</span></p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="flex gap-4 items-start bg-gray-50 p-6 rounded-2xl fade-in">
+                    <div class="hidden sm:block w-12 h-12 bg-green-500 rounded-full flex-shrink-0 flex items-center justify-center text-white font-bold">KW</div>
+                    <div>
+                        <p class="italic text-gray-700 mb-3 text-lg">"The best decision I made this month. Simple steps and zero hassle. Thanks a ton!"</p>
+                        <p class="font-bold text-gray-900">— Kevin W. <span class="text-xs font-normal text-gray-400 ml-2">Verified Recipient</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA & Scarcity Section -->
+    <section class="py-24 px-6 bg-blue-900 text-white relative overflow-hidden">
+        <!-- Abstract background pattern -->
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-0 left-0 w-64 h-64 bg-white rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-green-500 rounded-full translate-x-1/2 translate-y-1/2 blur-3xl"></div>
+        </div>
+
+        <div class="max-w-3xl mx-auto text-center relative z-10">
+            <h2 class="text-4xl font-extrabold mb-6">Spots are filling fast!</h2>
+            <p class="text-xl text-blue-100 mb-10">Only <span class="text-green-400 font-bold underline">12 spots left</span> for users in your area today. Act now to secure your $1,000 deposit.</p>
+            
+            <a href="https://www.af9m8trk.com/TFH115WW/4K1123XK/" class="inline-block bg-green-500 hover:bg-green-400 text-white text-2xl font-black px-12 py-6 rounded-2xl transition-all transform hover:scale-105 active:scale-95 shadow-2xl">
+                CLAIM YOUR $1000 NOW
+            </a>
+
+            <div class="mt-12 flex flex-col items-center gap-4">
+                <div class="flex items-center gap-3 bg-blue-800/50 px-6 py-3 rounded-full border border-blue-700/50">
+                    <i class="fas fa-shield-virus text-green-400"></i>
+                    <span class="text-sm">Your information is 100% secure</span>
+                </div>
+                <p class="text-blue-300 text-xs">No spam guarantee. Encrypted verification process.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-12 px-6 border-t border-gray-200">
+        <div class="max-w-6xl mx-auto text-center">
+            <div class="flex justify-center gap-6 mb-8 text-gray-400">
+                <i class="fab fa-cc-visa fa-2x"></i>
+                <i class="fab fa-cc-mastercard fa-2x"></i>
+                <i class="fab fa-cc-apple-pay fa-2x"></i>
+                <i class="fab fa-google-pay fa-2x"></i>
+            </div>
+            
+            <p class="text-gray-500 text-xs max-w-2xl mx-auto mb-6 leading-relaxed">
+                Disclaimer: This offer is a promotional reward. Eligibility is determined by participation in the sponsor's requirements. This website is not affiliated with any bank, government entity, or social media platform. All trademarks are the property of their respective owners.
+            </p>
+            
+            <div class="flex justify-center gap-4 text-xs font-bold text-gray-400 uppercase tracking-widest">
+                <a href="#" class="hover:text-blue-600 transition-colors">Privacy Policy</a>
+                <span class="text-gray-300">|</span>
+                <a href="#" class="hover:text-blue-600 transition-colors">Terms & Conditions</a>
+                <span class="text-gray-300">|</span>
+                <a href="#" class="hover:text-blue-600 transition-colors">Contact Support</a>
+            </div>
+            
+            <p class="mt-8 text-gray-400 text-xs">&copy; 2024 RewardPro US. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown Timer Logic
+        function startTimer(duration, display) {
+            let timer = duration, minutes, seconds;
+            setInterval(function () {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    timer = duration;
+                }
+            }, 1000);
+        }
+
+        // Intersection Observer for Animations
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        window.onload = function () {
+            // Start Timer
+            const fiveMinutes = 60 * 5,
+                display = document.querySelector('#timer');
+            startTimer(fiveMinutes, display);
+
+            // Start Scroll Animations
+            document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+        };
+    </script>
+</body>
+</html>
